@@ -33,7 +33,7 @@ nav ul li a{
 	transition: all .2s ease;
 }
 nav ul li a:hover{
-	color: #ffb310;
+	color: rgb(173, 11, 11);
 }
 .btn{
 	color: black;
@@ -45,11 +45,12 @@ nav ul li a:hover{
 	margin-right: 10px;
 }
 .btn-1{
-	background-color: rgb(196, 22, 22);
+	background-color: rgb(216, 27, 27);
+	color: #fff;
 }
 .btn-1:hover{
-	border: 2px solid yellow;
-	background-color: yellow;
+	border: 2px solid maroon;
+	background-color: rgb(236, 119, 9);
 }
 
 
@@ -279,10 +280,16 @@ span{
 #menu-col h2{
 	background-color: red;
 	color: #fff;
-	text-align: centre;
 	padding: 5px;
+	text-align: center;
 	font-family: cursive;
 	
+}
+#menu-col h3{
+	text-align: center;
+}
+#menu-col h4{
+	text-align: center;
 }
 #images{
 	width: 350px;
@@ -351,7 +358,7 @@ span{
 	
 }
 .vde{
-	
+	height: 80%;
 }
 .back-video{
 	position: absolute;
@@ -366,7 +373,7 @@ span{
 	height: 70vh;
 }
 .bar{
-	background-color: rgb(139, 27, 27);
+	background-color: rgb(184, 37, 37);
 	padding-top: 30px;
 	text-align: center;
 }
@@ -374,76 +381,136 @@ span{
 	color: #fff;
 	font-size: 20px;
 }
-.contact{
-	background-color: rgb(145, 43, 43);
-	margin-top: -105px;
-	padding: 100px;
-}
-.contact h4{
-	color: #fff;
-	font-size: 60px;
-	padding-top: -70px;
-	padding-bottom: 20px;
-	padding: -50px;
-	margin-top: -20px;
-	margin-left: 50px;
-}
-.contact p{
-	color: white;
-	font-size: 20px;
-	padding-left: 500px;
-	padding-top: -70px;
-	margin-top: -20px;
-}
-.contact h6{
-	color: #fff;
-	margin-bottom: -70px;
-	margin-left: -50px;
-	font-size: 15px;
-
-}
-.contact h5{
-	color: #fff;
-	font-size: 20px;
-	
-	margin-left: -50px;
-	margin-top: 100px;
-}
+.
 .cpage{
 	padding: 90px 0 90px 0;
 }
-.contactt{
+contactt{
 	background-color: rgb(145, 43, 43);
 	margin-top: -15px;
-	padding: 100px;
-}
-.contactt h4{
-	color: #fff;
-	font-size: 60px;
-	padding-top: -70px;
-	padding-bottom: 20px;
-	padding: -50px;
-	margin-top: -20px;
-	margin-left: -580px;
-}
-.contactt p{
-	color: white;
-	font-size: 20px;
-	padding-left: 1100px;
-	padding-top: -70px;
-	margin-top: -30px;
-}
-.contactt h6{
-	color: #fff;
-	margin-bottom: -70px;
-	margin-left: -1000px;
-	font-size: 15px;
+	padding: 100px;*/
 
 }
-.contactt h5{
-	color: #fff;
-	font-size: 20px;
+footer{
+	position: absolute;
+
+	background: maroon;
+	height: auto;
+	width: auto;
+	font-family: "Open Sans";
+	padding-top: 40px;
+	margin-top: -65px;
+	color:#fff;
 	
-	margin-left: -1000px;
-	margin-top: 100px;
+}
+.footer-contact{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-contact h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-transform: capitalize;
+	line-height: 3rem;
+}
+.footer-contact p{
+	max-width: 500px;
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 16px;
+}
+.socials{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0 2rem;
+
+}
+.socials a{
+	text-decoration: none;
+	color: #fff;
+	
+
+}
+.socials a:hover{
+	color: blue;
+}
+.footer-bottom{
+	background: black;
+	width: 100vw;
+	padding: 20px 0;
+	text-align: center;
+}
+.footer-bottom p{
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+/*.footer-bottom span{
+	text-transform: uppercase;
+	opacity: .4;
+	font-weight: bold;
+	bottom: -;
+}
+main {
+	
+	padding: 1px;
+}
+.contact{
+	color: white;
+	font-size: 40px;
+	margin-top: -30px;
+}
+.contact h4{
+	color: #000;
+	
+}
+.contact p{
+	color: white;
+	text-align: top;
+	padding-top: 90px;
+	font-size: 20px;
+	margin-top: -230px;
+	margin-left: 0px;
+}
+.contact h5{
+	font-size: 20px;
+	margin-top:50px;
+	color: white;
+
+}
+.contact h6{
+	font-size: 15px;
+	margin-top: -15px;
+
+}
+ .contact a{
+	margin-top: 0;
+	color: white;
+	align-items: center;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	
+}
+.fcontact{
+	
+	margin-top: -10px;
+	padding:10px;
+	padding-bottom: 90px;
+	background-color: maroon;
+	padding-top: 90px;
+
+}*/
+.footer-c{
+	padding-top: 50px;
+    
+}
+.footer-d{
+	padding-top: -180px;
+	
 }
