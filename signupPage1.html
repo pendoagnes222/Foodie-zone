@@ -8,9 +8,14 @@
   <linl rel="stylesheet" href="index.html">
   <script src="main.js"></script>
 </head>
+
+
 <body background="./image/pyy.jpg">
+<!--menu bar-->
 	<div class="bar">
 		<h3>Order online now!</h3>
+
+
 	<header>
 		<div class="logo">Groffy foodie</div>
 
@@ -27,33 +32,34 @@
 			<a href="signupPage1.html" class="btn btn-1">Log in</a>
 		</div>
 	</header>
-	
-
 	</div>
-    <div class="form-box">
+<!--end of menu-->
+
+
+<!--form-box-->
+	<div class="form-box">
 		<div class="box">
 			<div id="btn"></div>
 			<button type="button" class="login_nav" onclick="login()">Log In</button>
 			<button type="button" class="login_nav" onclick="register()">Sign Up</button>
+ 		</div>
 
-
-			</div>
 			<form id="login" class="input-user">
 				<input type="text" class="input-name" placeholder="User name" required>
 				<input type="text" class="input-name" placeholder="Enter Password" required>
 				<input type="checkbox" class="check-box"><span>Remember me</span>
 				<button type="submit" class="submitt" onclick="validate()">Log in</button>
-		
-				</form>
-				<form id="register" class="input-user">
+			</form>
+
+			<form id="register" class="input-user">
 					<input type="text" class="input-name" placeholder="User name" required>
 					<input type="emailt" class="input-name" placeholder="Email Id" required>
 					<input type="text" class="input-name" placeholder="Enter Password" required>
 					<input type="checkbox" class="check-box"><span>I agree to terms and conditions</span>
 					<button type="submit" class="submitt" onclick="validate()">Sign Up</button>
 			
-					</form>
-</div>
+			</form>
+    </div>
 				
 	
 	<script>
@@ -72,6 +78,6 @@
 		z.style.left = "0px";
 	}
     </script>
-
+<!--end of form-box-->
 </body>
 </html>
